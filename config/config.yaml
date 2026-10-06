@@ -1,0 +1,8 @@
+# Runtime parameters — passed to the graph as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+#
+# max_retry  — retry budget for the backbone's retry route.
+# timeout_s  — deadline the HTTP adapter applies to one report generation.
+
+max_retry: 3
+timeout_s: 30
